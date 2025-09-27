@@ -1,6 +1,25 @@
-.env
-token.pickle
-cleaned-repo/
+# Python
 __pycache__/
 *.pyc
-.venv/
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Virtual Environment
+venv/
+.env/
+.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+token.pickle
+credentials.json
+email_counter.json
